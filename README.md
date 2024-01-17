@@ -1,0 +1,2 @@
+# qrcode 
+tests QRCode generators

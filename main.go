@@ -14,6 +14,7 @@ func generateQR(u string) {
 }
 
 func main() {
+	// u := "WIFI:S:SSID;T:WPA2;P:PASSWORD;H:false;"
 	u := "https://urlz.fr/pj5g"
 	fmt.Printf("encoding %q\nlength = %d\n\n", u, len(u))
 	generateQR(u)
